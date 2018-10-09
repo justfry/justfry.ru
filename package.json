@@ -4,7 +4,8 @@
   "description": "langing page for my site",
   "main": "app.js",
   "scripts": {
-    "test": "test app"
+    "test": "test app",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",

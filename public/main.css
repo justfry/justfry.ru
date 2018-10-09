@@ -1,0 +1,128 @@
+body, html {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+a{
+    color: #ffffff;
+}
+.social-list{
+    font-size: 30px;
+    list-style: none;
+}
+.social-list li{
+    display: inline;
+    margin-right: 10px;
+}
+@media (max-width: 1024px){
+    h1{
+        font-size: 82px;
+        font-weight: 800;
+        font-kerning: normal;
+        letter-spacing: 2px;
+        line-height: 70px;
+    }
+    #page-content{
+        margin-top: 40px;
+    }
+    .text-container{
+        text-align: center;
+    }
+    .social-icons{
+        margin-top: 20px;
+    }
+    .social-list{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .logo{
+        content: url(jf-logo.svg);
+        width: 100%;
+    }
+    .row.links{
+        width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        position: relative;
+    }
+    .link{
+        text-align: center;
+        bottom: 40px;
+    }
+    .full-screen-app{
+        width: 100%;
+        height: 100vh;
+    }
+    #twitup{
+        margin-left: 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1{
+        font-size: 82px;
+        font-weight: 800;
+        font-kerning: normal;
+        letter-spacing: 2px;
+        line-height: 70px;
+    }
+    
+    .full-screen-app{
+        width: 100%;
+        height: 100%;
+    }
+    .content-holder{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    
+    }
+    .content-holder.main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-container{
+        position:absolute;
+        top: 30%;
+        width: 280px;
+        margin-bottom: 63px;
+        text-align: right;
+        right: 0;
+    }
+    .row.links{
+        height: 50%;
+    }
+    .link{
+        display: flex;
+        position: relative;
+        height: 100%;
+        width: 50%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .social-icons{
+        position: absolute;
+        bottom: 75px;
+        right: 0;
+    }
+    .logo{
+        content: url(jf-logo.svg);
+        width: 100%;
+    }
+    #app {
+        overflow: hidden;
+        position: relative;
+    }
+}
+@media (min-width: 1800px){
+    .container {
+        max-width: 1800px;
+    }
+}
