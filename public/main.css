@@ -171,7 +171,7 @@ a > i:hover{
 	        animation: fade-in-delay 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
 }
 
- @-webkit-keyframes fade-in-delay {
+@-webkit-keyframes fade-in-delay {
     0% {
       opacity: 0;
     }
@@ -179,7 +179,7 @@ a > i:hover{
       opacity: 1;
     }
   }
-  @keyframes fade-in {
+  @keyframes fade-in-delay {
     0% {
       opacity: 0;
     }
